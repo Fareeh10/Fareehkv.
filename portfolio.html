@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><!-- supports a wide range of characters, including special symbols and non-English text.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!---  controls the viewport settings for responsive design, ensuring the page scales well on different screen sizes.-->
+  <meta name="description" content="Bait An Noor offers Islamic online courses for kids, including Quran, Arabic, and Islamic studies."><!--SEO-->
+  
+
+  <title>BAIT AN NOOR</title>
+  <link rel="icon" href="portfolio-images/bait_an_noor.png">
+
+  <!--css files-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body> 
+  <header class="site-header">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+
+        <!-- Logo & Title -->
+        <div data-aos="fade-right" data-aos-duration="1000" class="col-10 col-lg-6 d-flex align-items-center">
+          <h3 id="name" class="mb-0">FareehKv.</h3>
+        </div>
+        <!--d-flex makes div a flex container--> 
+        <!--align-items-center is a Bootstrap utility class that applies align-items: center; to a flex container. This ensures that all child elements inside the container are vertically centered.-->
+
+        <!-- Hamburger Menu (Visible only on small screens) -->
+        <div class="col-2 d-lg-none text-right">
+          <button id="menu-toggle" aria-label="Toggle navigation" class="btn p-0 border-0 bg-transparent">
+            <img src="https://img.icons8.com/material-outlined/24/ffffff/menu--v1.png" alt="Menu icon" />
+          </button>
+        </div>
+        <!--text-right aligns text within an element to left-->
+
+        <!-- Desktop Navbar (hidden on small screens) -->
+        <div data-aos="fade-left" data-aos-duration="1000" class="col-md-6 d-none d-lg-block" id="navbar-div">
+          <nav class="navbar navbar-expand p-0 bg-transparent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!--side menu for sm and xs only-->
+        <div id="side-menu" class="d-lg-none">
+          <button id="close-button">&times;</button><!--times represent x-->
+          <ul>
+              <li><a href="#section1">Home </a></li>
+              <li><a href="#about">About </a></li>
+              <li><a href="#skills">Skills </a></li>
+              <li><a href="#Projects">Projects </a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Add overlay right here -->
+        <div id="menu-overlay" class="d-lg-none"></div>
+      </div>
+  </header>
+  
+
+
+  <section data-aos="zoom-in" data-aos-duration="1000" class="section1" id="section1">
+  
+  <!--<div class="night">
+  <div class="star star1"></div>
+  <div class="star star2"></div>
+  <div class="star star3"></div>
+  <div class="star star4"></div>
+  <div class="star star5"></div>
+  <div class="star star6"></div>
+  <div class="star star7"></div>
+  <div class="star star8"></div>
+    </div>-->
+
+    <div class="hero-content">
+        <div class="hero-container">
+          <h1 class="typing-text">Hi, I am Fareeh Kv</h1>
+        </div>
+        <p>Passionate about coding, with a focus on full-stack development, desktop application development, and machine learning</p>
+        <br><button class="explore-btn">View Projects</button>
+    </div>
+
+    <div class="hero-image">
+        <img style="border-radius:50%" src="portfolio-images/fareeh.jpeg" alt="Quran image" />
+    </div> 
+
+    </section>
+
+
+    <section class="about-section" id="about">
+      <div data-aos="fade-up" data-aos-duration="1000" class="container about-content">
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I’m a B.Tech Computer Science student (2023–2027) passionate about crafting software that solves real-world problems. I specialize in developing responsive websites using HTML, CSS, and JavaScript, building desktop applications with Java Swing, and managing data through MySQL. I'm currently expanding my horizons by diving into machine learning and exploring modern frameworks to stay ahead in the tech landscape.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div style="background:rgb(25,25,25);" class="wave-separator">
+      <svg viewBox="0 0 1440 160" preserveAspectRatio="none">
+        <path d="M0,60 C480,200 960,-80 1440,60 L1440,160 L0,160 Z" fill="#121212"></path>
+      </svg>  
+    </div>
+
+    <section class="skills-section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <p class="skills-subtitle">Here are some technologies and tools I work with:</p>
+      
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="slide-up">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+          <p>HTML5</p>
+        </div>
+        <div class="skill-card" data-aos="slide-up">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          <p>CSS3</p>
+        </div>
+        <div class="skill-card" data-aos="slide-up">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        
+        <div class="skill-card" data-aos="slide-up">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+          <p>Java</p>
+        </div>
+        <div class="skill-card" data-aos="slide-up">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <p>Python</p>
+        </div>
+        <!-- Add more as needed -->
+      </div>
+    </section>
+
+    <section class="projects-section" id="Projects">
+      <h2 class="section-title">Projects</h2>
+      <p class="projects-subtitle">Here are a few projects I’ve worked on recently:</p>
+
+
+      <div class="projects-grid">
+
+        <div class="project-card" data-aos="slide-up">
+          <img src="portfolio-images/Screenshot 2025-07-23 at 6.19.36 PM.png" alt="Bait An Noor Website" />
+          <div class="project-info">
+            <h3>Bait An Noor Website</h3>
+            <p>A responsive website for an Islamic learning platform built with HTML, CSS, and JS.</p>
+            <span class="tech-used">HTML</span>
+            <span class="tech-used">CSS</span>
+            <span class="tech-used">JavaScript</span>
+            <div class="project-links">
+              <a href="https://baitannoorsite.vercel.app" target="_blank">Live Demo</a>
+              <a href="https://github.com/yourusername/bait-an-noor" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="slide-up">
+          <img src="portfolio-images/Screenshot 2025-07-23 at 6.21.48 PM.png" alt="Expense Tracker Screenshot" />
+          <div class="project-info">
+            <h3>Expense Tracker</h3>
+            <p>A modern Java desktop app built with Java Swing and MySQL to manage daily expenses.</p>
+            <span class="tech-used">Java</span>
+            <span class="tech-used">Swing</span>
+            <span class="tech-used">MySQL</span>
+            <div class="project-links">
+              <a href="https://github.com/yourusername/expense-tracker" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+
+        <div class="form-div">
+          <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <br>
+        <!--<div class="contact-info-div">
+            <p><strong>Email:</strong> fareehkv@gmail.com</p>
+        </div>-->
+        
+      </div>
+    </section>
+
+    <footer>
+    &copy; 2025 FareehKv. All rights reserved.
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        duration: 1000,     // Animation duration
+        once: true,         // Animate only once
+        offset: 100,        // Offset from the bottom before triggering
+    });
+    </script>
+    <script>
+      window.addEventListener('scroll', function () {
+        const header = document.querySelector('.site-header');
+        if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+    </script>
+</body>
+</html>
