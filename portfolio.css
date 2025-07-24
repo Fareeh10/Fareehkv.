@@ -342,7 +342,7 @@ body {
 }
 
 .explore-btn:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
   transform: translateY(-2px);
   background: #06a475;
