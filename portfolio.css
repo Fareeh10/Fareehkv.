@@ -337,12 +337,15 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 20px rgba(113, 102, 2, 0.3);
+  text-docoration:none;
 }
 
 .explore-btn:hover {
   transform: translateY(-2px);
   background: #06a475;
   box-shadow: 0 6px 25px rgba(113, 102, 2, 0.4);
+  text-docoration:none;
+  color:white;
 }
 
 .contact-section {
