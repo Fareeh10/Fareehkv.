@@ -621,6 +621,29 @@ body {
   margin-bottom: 1rem;
   font-weight: bold;
 }
+.video-wrapper {
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.project-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.project-card video:hover {
+  transform: scale(1.02);
+}
+
+.project-description {
+  font-size: 0.95rem;
+  color: #ddd;
+  line-height: 1.5;
+}
+
 footer {
     text-align: center;
     padding: 2rem 1rem;
