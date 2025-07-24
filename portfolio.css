@@ -342,11 +342,11 @@ body {
 }
 
 .explore-btn:hover {
+  text-decoration: none;
+  color: white;
   transform: translateY(-2px);
   background: #06a475;
   box-shadow: 0 6px 25px rgba(113, 102, 2, 0.4);
-  text-decoration: none;
-  color: white;
 }
 
 .contact-section {
